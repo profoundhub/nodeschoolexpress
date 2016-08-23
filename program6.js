@@ -16,9 +16,9 @@ PUT /message/526aa677a8ceb64569c9d4fb
       var str = require('crypto')
                 .createHash('sha1')
                 .update(new Date()
-                .toDateString()
-                .toString() + id)
-                .digest('hex');
+                    .toDateString()
+                    .toString() + id)
+                        .digest('hex');
       res.send(str);
       
     });

@@ -1,4 +1,4 @@
-/*
+/* global res
 
  JSON ME
  Exercise 8 of 8
@@ -24,9 +24,9 @@ app.get('/books', function() {
         } catch(error) {
             
             res.send(500);
-            
+        }
+        
     });
-    
     
 });
 

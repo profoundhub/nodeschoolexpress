@@ -32,7 +32,7 @@ Please use process.argv[2] instead of a fixed port number:
  » For help run: expressworks help
 
 
-profoundclouds:~/workspace (master) $ expressworks verify program1.js
+... :~/workspace (master) $ expressworks verify program1.js
 
 Your submission results compared to the expected:
 

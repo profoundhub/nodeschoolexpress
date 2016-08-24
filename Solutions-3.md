@@ -58,7 +58,7 @@ Again, the port to use is passed by expressworks to the application as process.a
  » For help run: expressworks help
 
 
-profoundclouds:~/workspace (master) $ expressworks verify program3.js
+... :~/workspace (master) $ expressworks verify program3.js
 
 Your submission results compared to the expected:
 

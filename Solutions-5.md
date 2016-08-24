@@ -51,7 +51,7 @@ dependency:
  » For help run: expressworks help
 
 
-profoundclouds:~/workspace (master) $ expressworks verify program5.js
+:~/workspace (master) $ expressworks verify program5.js
 
 Your submission results compared to the expected:
 
@@ -75,3 +75,14 @@ Here's the official solution in case you want to compare notes:
 
 ────────────────────────────────────────────────────────────────────────────────
     var express = require('express')
+       var app = express()
+
+       app.use(require('stylus').middleware(process.argv[3]));
+       app.use(express.static(process.argv[3]));
+
+
+       app.listen(process.argv[2])
+
+   ────────────────────────────────────────────────────────────────────────────────
+
+   You've finished all the challenges! Hooray!

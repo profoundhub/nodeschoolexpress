@@ -18,10 +18,10 @@ app.get('/books', function() {
         
         } try {
             
-            var books = JSON.parse(content.toString());
+            var books = JSON.parse(content.toString()); // object = JSON.parse(string)
             res.json(books);
          
-        } catch(error) {
+        } catch (error) {
             
             res.send(500);
         }
@@ -29,8 +29,6 @@ app.get('/books', function() {
     });
     
 });
-
-object = JSON.parse(string)
 
 
 

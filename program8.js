@@ -11,11 +11,21 @@ var app = express();
 
 app.get('/books', function() {
     
-   
+    fs.readFile(filename, callback)   {
+        
+        
+    }
+     else {
+         
+     } catch {
+         
+         
+     }
+    
     
 });
 
-fs.readFile(filename, callback)
+
 
 object = JSON.parse(string)
 

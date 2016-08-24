@@ -5,8 +5,9 @@ Exercise 7 of 8
 var express = require('express');
 var app = express();
 
-    req.query.NAME
-    
-    res.send(object)
+app.get('/search', function (req, res) {
+  var query = req.query;
+  res.send(query);
+});
 
 app.listen(process.argv[2]);

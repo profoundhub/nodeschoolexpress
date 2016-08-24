@@ -11,16 +11,17 @@ var app = express();
 
 app.get('/books', function() {
     
-    fs.readFile(filename, callback)   {
+    fs.readFile(process.argv[3], function (err, content) {
+        if (err) {
+            res.send(500);
         
+        } try {
         
-    }
-     else {
          
-     } catch {
+        } catch(error) {
          
          
-     }
+    });
     
     
 });

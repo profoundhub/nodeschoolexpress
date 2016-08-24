@@ -5,8 +5,20 @@
  
 */
 
+var fs = require('fs');
 var express = require('express');
 var app = express();
+
+app.get('/books', function() {
+    
+   
+    
+});
+
+fs.readFile(filename, callback)
+
+object = JSON.parse(string)
+
 
 
 app.listen(process.argv[2]);
